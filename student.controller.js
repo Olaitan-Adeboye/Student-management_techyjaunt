@@ -18,7 +18,7 @@ const register = async (req, res) => {
 
         //to hash the password (encrypt)
         //const hashedPassword = await bcrypt.hash(password, saltRounds);
-        const student = new Student({ firstName, lastName, age, course, level, email, password: hashedPassword });
+        const student = new Student({ firstName, lastName, age, course, level, email });
         await student.save();
         
         res.status(201).json({ message: 'Student created successfully', student });
