@@ -8,7 +8,7 @@ Prerequisites:
 (iii) Install Postman
 
 INSTALLATION PROCESS
-(i) Clone the repository
+(i) Clone the repository (https://github.com/Olaitan-Adeboye/Student-management_techyjaunt.git)
 (ii) Install dependencies (npm i)
 (iii) Create a .env file
 (iv) Then run (npm run dev)
